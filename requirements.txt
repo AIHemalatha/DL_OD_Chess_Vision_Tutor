@@ -1,0 +1,5 @@
+ultralytics==8.3.158
+opencv-python
+python-chess
+matplotlib
+torch==2.7.1
