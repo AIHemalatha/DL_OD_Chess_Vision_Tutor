@@ -42,3 +42,19 @@ ChessVisionTutor/
 ├── output_chess_tutor.avi # Saved output (after run)
 └── requirements.txt
 
+---
+
+## ▶️ How to Run
+
+1. **Clone the repo**
+   git clone https://github.com/yourusername/ChessVisionTutor.git
+   cd ChessVisionTutor
+2. **Install dependencies**
+   pip install -r requirements.txt
+3. **Add weights**
+   Place your trained YOLOv8 weights in weights/best.pt
+   Download stockfish.exe and place in weights/
+4. **Run on webcam or video**
+   python Chess_Vision_Tutor.ipynb
+5. **To save the output video**
+   Modify Chess_Vision_Tutor.ipynb to enable video writing 
